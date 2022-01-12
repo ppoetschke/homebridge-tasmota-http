@@ -1,0 +1,22 @@
+{
+  "name": "homebridge-tasmota-http",
+  "version": "0.0.1",
+  "description": "Control Sonoff Basic devices with Tasmota >5.10.0b firmware through Homebridge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "author": "Patrick Poetschke <patrick.poetschke@quantusflow.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.14.0",
+    "homebridge": ">=0.2.0"
+  },
+  "dependencies": {
+    "axios": "^0.24.0"
+  },
+  "devDependencies": {}
+}
