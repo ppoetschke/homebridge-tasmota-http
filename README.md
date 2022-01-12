@@ -4,8 +4,6 @@ This is a plugin for [homebridge](https://github.com/nfarina/homebridge) which m
 
 The Tasmota compatible version of the plugin is 5.11.0 and later
 
-If you need compatibility with previous Tasmota versions, fork this commit: https://github.com/ageorgios/homebridge-sonoff-tasmota-http/tree/6f73a32fd8ae01f16813f8f0bd3844d3da469e4d
-
 # Information
 ```
 http://sonoff/cm?cmnd=Power
@@ -44,7 +42,3 @@ http://sonoff/cm?cmnd=Power%20Off
   "hostname": "The hostname of the Sonoff device"
 }
 ```
-
-# Cache
-
-Original plug-in was failing a lot in getState/setState with 'No response', adding cache helps to alleviate that.
